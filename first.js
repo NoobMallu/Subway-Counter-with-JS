@@ -13,3 +13,9 @@ function increment() {
     countEl.innerText = count
     console.log(count)
 }
+
+function decrement(){
+    count = count - 1
+    countEl.innerText = count
+    console.log(count)
+}
